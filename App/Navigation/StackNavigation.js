@@ -11,8 +11,6 @@ import ChooseBackgroundScreen from '../Screens/ChooseBackgroundScreen';
 import ChooseCharacterScreen from '../Screens/ChooseCharacterScreen';
 import FinishedStoryScreen from '../Screens/FinishedStoryScreen';
 import ViewCommentsScreen from '../Screens/ViewCommentsScreen';
-import ReadStoryScreen from '../Screens/ReadStoryScreen';
-
 
 const MyStoriesStack = createStackNavigator({
   MyStoriesScreen: { screen: MyStoriesScreen },
@@ -48,7 +46,6 @@ const CreateStoryStack = createStackNavigator({
 const BrowseStack = createStackNavigator({
   BrowseStoriesScreen: { screen: BrowseStoriesScreen },
   BrowseStoryDetailsScreen: { screen: BrowseStoryDetailsScreen },
-  ReadStoryScreen: { screen: ReadStoryScreen },
 },
 {
   headerMode: 'none',
