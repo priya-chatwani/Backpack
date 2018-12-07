@@ -13,22 +13,22 @@ export default class ViewCommentsScreen extends React.Component {
       {
         name: 'Uncle',
         comment: 'So proud of you! Can\'t wait to hear about this in person over the holidays.',
-        image: Images.uncle.png,
+        image: Images.uncle,
       },
       {
         name: 'Dad',
         comment: 'Great work and cute character! Love your enthusiasm.',
-        image: Images.dad.png,
+        image: Images.dad,
       },
       {
         name: 'Teacher',
         comment: 'You did a wonderful job on this story. I hope you share it with the class!',
-        image: Images.aunt.png,
+        image: Images.aunt,
       },
       {
         name: 'Mom',
         comment: 'Nice story! I like this app - we can all use this to share stories.',
-        image: Images.mom.png,
+        image: Images.mom,
       },
     ]
   }
